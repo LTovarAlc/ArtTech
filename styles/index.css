@@ -1,0 +1,147 @@
+/* Header */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1b1b1b;
+    color: #ffffff;
+    position: sticky;
+}
+
+.logo__img{
+    padding-left: 50px;
+    height: 80px;
+    filter: drop-shadow(5px 5px 4px white);
+    animation: shadowAnimation 2s infinite alternate;
+}
+
+@keyframes shadowAnimation {
+    from{
+        filter: drop-shadow(5px 5px 4px white);
+    }
+    to{
+        filter: drop-shadow(5px 5px 4px #292828);
+    }
+}
+
+.list{
+    display: flex;
+    margin-right: 30px;
+}
+
+.links{
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 700;
+    text-shadow: 0px 0px 3px #ffffff;
+}
+
+.links:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    text-shadow: 0px 0px 20px #ffffff;
+}
+
+/* introduce */
+
+.introduce{
+    height: 520px;
+    background-image: url(../img/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.introduce__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.introduce__text{
+    padding-left: 100px;
+    width: 40%;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px #ffffff;
+}
+
+.introduce__principal{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-shadow: 0px 0px 5px #ffffff;
+}
+
+.introduce__principal:hover{
+    filter: drop-shadow(0px 0px 3px white);
+    transition: 0.5s;
+}
+
+.introduce__paragraph{
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.introduce__paragraph:hover{
+    filter: drop-shadow(0px 0px 5px white);
+    transition: 0.5s;
+}
+
+.introduce__img{
+    width: 40%;
+}
+
+.introduce-img{
+    height: 400px;
+    padding-right: 100px;
+    filter: drop-shadow(0px 0px 3px white);
+}
+
+.introduce-img:hover{
+    filter: drop-shadow(0px 0px 7px white);
+    transition: 0.5s;
+}
+
+/* Goal section */
+
+.goal{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.goal__info{
+    width: 50%;
+    margin-left: 100px;
+}
+
+.goal__tittle{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.goal__text{
+    width: 75%;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.goal__card{
+    margin-right: 100px;
+}
+
+.goal__img{
+    height: 400px;
+    filter: drop-shadow(5px 5px 4px #000000);
+}
+
+.goal__img:hover{
+    transition: 0.5s;
+    filter: drop-shadow(5px 5px 6px #000000);
+}
+
+/* DrawIt! & E-commerce */
