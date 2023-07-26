@@ -164,13 +164,17 @@
     filter: drop-shadow(4px 4px 2px #000000);
 }
 
+.content__container{
+    display: flex;
+    justify-content: center;
+}
+
 .content__conections{
     padding-top: 64px;
-    margin-left: 400px;
-    margin-right: 400px;
+    width: 50%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .DrawIt{
