@@ -129,7 +129,9 @@
     width: 75%;
     font-size: 22px;
     font-weight: 500;
+    padding-top: 12px;
 }
+
 
 .goal__card{
     margin-right: 100px;
@@ -286,4 +288,116 @@
 .conections__description{
     font-weight: 500;
     padding-top: 20px;
+}
+
+/* footer */
+
+.footer{
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+
+.logo__footer{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo__img-footer{
+    height: 100px;
+    filter: drop-shadow(5px 5px 4px white);
+    animation: shadowAnimation 2s infinite alternate;
+}
+
+@keyframes shadowAnimation {
+    from{
+        filter: drop-shadow(0px 5px 4px white);
+    }
+    to{
+        filter: drop-shadow(0px 5px 4px #292828);
+    }
+}
+
+.footer__text{
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 20px;
+    color: #dddddd;
+    filter: drop-shadow(0px 0px 2px white);
+}
+
+.contact{
+    width: 40%;
+}
+
+.contact__tittle{
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #dddddd;
+    filter: drop-shadow(2px 2px 3px white);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.form input{
+    height: 45px;
+    border-radius: 10px;
+    padding-left: 12px;
+    padding-top: 5px;
+    width: 400px;
+    margin-bottom: 16px;
+    box-shadow: 2px 2px 3px #dddddd;
+}
+
+.error{
+    color: #dddddd;
+    padding-bottom: 20px;
+}
+
+.form input:focus{
+    outline: none;
+    scale: 1.01;
+    border: none;
+    box-shadow: 4px 4px 6px #dddddd;
+}
+
+.form input:focus::placeholder{
+    transition: 0.3s;
+    transform: translateY(-15px);
+    color: #1b1b1b;
+}
+
+.send{
+    height: 40px;
+    border: solid 1px #292828;
+    border-radius: 10px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 3px #dddddd;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.send:hover{
+    cursor: pointer;
+    background-color: #dddddd;
+    box-shadow: 2px 2px 5px #dddddd;
+}
+
+.sendArrow{
+    padding-left: 12px;
+    height: 20px;
 }

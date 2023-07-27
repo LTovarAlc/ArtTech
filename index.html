@@ -24,7 +24,7 @@
                     <li class="links"><a href="#about__us" class="smooth-scroll">About Us</a></li>
                     <li class="links"><a href="#">DrawIt!</a></li>
                     <li class="links"><a href="#">Art&Tech E-commerce</a></li>
-                    <li class="links"><a href="#">Contact</a></li>
+                    <li class="links"><a href="#contact" class="smooth-scroll">Contact</a></li>
                     <li class="links"><a href="#">Twitter</a></li>
                     <li class="links"><a href="#">Instagram</a></li>
                 </Ul>
@@ -98,7 +98,26 @@
             </div>
         </div>
     </section>
+    <footer class="footer">
+        <div class="logo__footer">
+            <img src="img/logo.png" alt="Logo-Art&Tech" class="logo__img-footer">
+            <h1 class="footer__text">Growing the art. &copy;</h1>
+        </div>
+        <div class="contact">
+            <h1 class="contact__tittle" id="contact">Contact Us</h1>
+            <form action="" class="form">
+                <input type="text" name="name" id="input_name" placeholder="Name" required>
+                <span id="nameError" class="error"></span>
+                <input type="number" name="phoneNumber" id="input_phoneNumber" placeholder="Phone number">
+                <span id="phoneNumberError" class="error"></span>
+                <input type="text" name="message" id="input_message" placeholder="Write a message" placeholder="Message">
+                <span id="messageError" class="error"></span>
+                <button class="send">Send <img src="img/sendArrow.png" class="sendArrow"></button>
+            </form>
+        </div>
+    </footer>
     <script src="scripts/arrow-btn.js"></script>
     <script src="scripts/smooth-scroll.js"></script>
+    <script src="scripts/formValidation.js"></script>
 </body>
 </html>
