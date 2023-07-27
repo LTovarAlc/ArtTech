@@ -178,16 +178,10 @@
 
 .content__conections{
     padding-top: 64px;
-    width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
-
-.content__conections > div:not(:last-child){
-    margin-right: 50px;
-}
-
 .DrawIt{
     border-radius: 20px;
     width: 300px;
@@ -197,6 +191,8 @@
     align-items: center;
     box-shadow: 0px 15px 5px rgba(0, 0, 0, 0.7);
     padding: 20px;
+    margin-right: 50px;
+    
 }
 
 .DrawIt:hover{
