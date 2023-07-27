@@ -129,7 +129,6 @@
     width: 75%;
     font-size: 22px;
     font-weight: 500;
-    filter: drop-shadow(3px 3px 1.5px #000000);
 }
 
 .goal__card{
@@ -137,13 +136,34 @@
 }
 
 .goal__img{
-    height: 400px;
+    height: 300px;
     filter: drop-shadow(5px 5px 4px #000000);
 }
 
 .goal__img:hover{
     transition: 0.5s;
     filter: drop-shadow(5px 5px 6px #000000);
+}
+
+.vision{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.values{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.values__list{
+    width: 75%;
+    font-size: 22px;
+    font-weight: 500;
+    
 }
 
 /* DrawIt! & E-commerce */
@@ -168,7 +188,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 64px;
 }
 
 .content__conections{
@@ -182,6 +201,7 @@
     justify-content: space-between;
     align-items: flex-start;
 }
+
 .DrawIt{
     border-radius: 20px;
     width: 300px;

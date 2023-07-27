@@ -9,9 +9,9 @@ btnShowText.forEach((btnShowText) =>{
         const descriptionParagraph = parentDiv.querySelector('.conections__description');
 
         if (descriptionParagraph.style.display === 'none') {
-            descriptionParagraph.style.display = 'block';
-          } else {
-            descriptionParagraph.style.display = 'none';
-          }
+          descriptionParagraph.style.display = 'block';
+        } else {
+          descriptionParagraph.style.display = 'none';
+        }
     })
 })
