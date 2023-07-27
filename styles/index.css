@@ -167,6 +167,13 @@
 .content__container{
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding-top: 64px;
+}
+
+.content__conections{
+    display: flex;
+    justify-content: center;
 }
 
 .content__conections{
@@ -175,6 +182,10 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+}
+
+.content__conections > div:not(:last-child){
+    margin-right: 50px;
 }
 
 .DrawIt{
